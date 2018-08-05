@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    min-height: 2000px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #000;
+    border-bottom: 4px solid yellow;
+}
+
+button{
+    border-radius: 4px;
+    width: 200px;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    font-weight:  600;
+    border: none;
+    box-shadow: 0px 3px 7px 0px;
+    text-transform: uppercase;
+}
+
+h1{
+    color: yellow;
+    padding-left: 1.3em;
+}
+
+nav ul{
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: flex-end;
+}
+
+nav li{
+    padding: 1.5em;
+}
+
+nav li a{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.blurb{
+    height: 75px;
+    background: lightgray;
+    justify-content: center;
+}
+
+.blurb h2{
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.blurb .cross-line{
+    text-decoration: line-through;
+    color: rgb(180, 175, 175);
+    border-bottom: none;
+}
+
+.blurb span{
+    border-bottom: 2px solid yellow;
+}
+
+.image-text{
+    position: relative;
+}
+
+.image-text img{
+    width: 100%;
+}
+
+.image-text aside{
+    background: #e8e0dede;
+    width: 300px;
+    height: 425px;
+    position: absolute;
+    padding: 1.8em;
+    border: 1px solid #000;
+    right: 2%;
+    top: 2%;
+}
+
+.image-text aside p{
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 28px;
+    letter-spacing: .1rem;
+}
+
+.image-text aside a button{
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+.col-3{
+    margin: 40px 0;
+}
+
+.col-3 article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+    padding: 0px 40px;
+    border-right: 2px solid lightgrey;
+    /* text-align: center; */
+}
+
+.col-3 article:last-child{
+    border: none;
+}
+
+.col-3 article h3{
+    font-size: 1.4rem;
+}
+
+.col-3 article p{
+    font-size: 1.1rem;
+}
+
+.col-3 article button{
+    background: #c6c4c4;
+    width: 100%;
+    padding: 12px 10px;
+}
+
+
+footer{
+    display: flex;
+    height: 50px;
+    background: black;
+    align-items: center;
+    padding:  0 20px;
+}
+
+footer sup{
+    color: white;
+}
